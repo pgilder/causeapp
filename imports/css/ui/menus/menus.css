@@ -1,0 +1,14 @@
+.mdl-button--icon {
+    border-radius: 50%;
+    font-size: 24px;
+    height: 32px;
+    margin-left: 0;
+    margin-right: 28px;
+    min-width: 32px;
+    width: 32px;
+    padding: 0 px;
+    overflow: hidden;
+    color: inherit;
+    line-height: normal;
+    float: right;
+}

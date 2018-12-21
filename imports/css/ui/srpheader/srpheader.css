@@ -1,0 +1,12 @@
+.mdl-layout__tab-bar {
+    height: 96px !important;
+    margin: 0 !important;
+    width: calc(100% - 112px) !important;
+    padding: 0 0 0 56px !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    background-color: rgb(63,81,181) !important;
+    overflow-y: hidden !important;
+    overflow-x: scroll !important;
+}

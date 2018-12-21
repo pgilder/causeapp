@@ -1,0 +1,6 @@
+import '/node_modules/material-design-lite/material.min.css';
+import '/node_modules/material-design-lite/material.min.js';
+import './tabslider.html';
+import './imports/css/ui/tabslider/tabslider.css';
+import './imports/css/ui/pagination/pagination.css';
+import './imports/css/ui/buttons/fbbtn.css';

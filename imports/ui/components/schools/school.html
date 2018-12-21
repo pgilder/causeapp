@@ -1,0 +1,35 @@
+<template name="school">
+    <li class="school {{selected}}">
+      <div class="col s6 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="https://unsplash.it/175">
+          <span class="card-title">{{name}}</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p class="school-category">{{category}}</p>
+          <p class="school-description">{{schooldescription}}</p>
+          <p class="school-city">{{schoolcity}}</p>
+          <p class="school-distance">{{schooldistance}} mi</p>
+          <p><span class="badge card-badge">{{schoolrating}}</span></p>
+          <!--<li class="{{#if checked}}checked{{/if}}">
+            <button class="delete">&times;</button>
+            <input type="checkbox" checked="{{checked}}" class="toggle-checked" />
+            <span class="text">{{text}}</span>
+          </li> -->
+        </div>
+      </div>
+    </div>
+  </li>
+</template>
+<!--
+
+<li class="school {{selected}}">
+  <span class="name">{{name}}</span>
+  <span class="metadata">
+    <span class="category"> Category: {{category}}</span>
+    <span class="score"> Score: {{score}}</span>
+  </span>
+</li>
+ -->

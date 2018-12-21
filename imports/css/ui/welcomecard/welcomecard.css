@@ -1,0 +1,49 @@
+.demo-card-square.mdl-card {
+    width: 360px !important;
+    min-height: 360px;
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.mdl-button.mdl-button--colored {
+    color: #46b6ac;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.mdl-card__actions.mdl-card--border {
+    border-top: 1px solid rgba(0,0,0,.1);
+    display: inline-grid;
+}
+
+a {
+    color: #46b6ac;
+    font-weight: 500;
+}
+
+.demo-card-square.mdl-card {
+width: 320px;
+height: 320px;
+}
+
+.demo-card-square > .mdl-card__title {
+color: #fff;
+background:
+  url('https://getmdl.io/assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+}
+
+.mdl-card__title-text {
+    align-self: flex-end;
+    color: inherit;
+    display: flex;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+    top: 0%;
+    position: absolute;
+    margin: 8%;
+}

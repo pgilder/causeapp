@@ -1,0 +1,61 @@
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    background-color: transparent;
+    border: none;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    outline: none;
+    height: 3rem;
+    max-width: 90%;
+    font-size: 1rem;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 35px;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+    background-color: white;
+    position: relative;
+}
+
+.padded.count-results {
+    font-size: 11px;
+    padding: 0 16px 0 0px;
+    margin-top: -52px;
+    position: relative;
+    float: right;
+    color: #29b6f6;
+}
+
+.padded.examples {
+    font-size: 11px;
+    padding: 0 0px 0 16px;
+    margin-top: -19px;
+    position: relative;
+    float: left;
+}
+
+ul.leaderboard {
+    margin-top: 31px;
+    margin: 26px auto;
+    padding: 0;
+    color: rgb(37, 37, 37);
+}
+
+.message {
+    margin: -10px 16%;
+    position: relative;
+    background-color: #f44336;
+    padding: 11px 15%;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+span.messagetext {
+    padding-left: 20px;
+}
+
+.padded.no-results {
+    color: #bdbdbd;
+    text-align: -webkit-center;
+    font-size: 1.5rem;
+}

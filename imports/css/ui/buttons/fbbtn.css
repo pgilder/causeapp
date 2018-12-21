@@ -1,0 +1,46 @@
+.mdl-button--raised.mdl-button--colored {
+    background: #49659f;
+    color: #fff !important;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab {
+    color: #fff;
+    background-color: #db4437;
+    width: 100%;
+}
+
+.mdl-button--raised.mdl-button--white {
+    background: #ffffff;
+    color: #666 !important;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.social-login {
+    margin: 0 auto;
+    display: grid;
+    margin: 0px 26px;
+    position: absolute;
+    width: 87%;
+    bottom: 68px;
+}
+
+.signup-link{
+font-size: 19px;
+line-height: 32px;
+-moz-osx-font-smoothing: grayscale;
+margin: 24px 0 16px;
+color: #666674;
+}
+
+.signup-link {
+    font-size: 19px;
+    line-height: 32px;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0px 21% 0px;
+    color: #666674;
+    position: absolute;
+    bottom: 20px;
+}

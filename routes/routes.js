@@ -1,3 +1,11 @@
+Router.configure({
+notFoundTemplate: 'notFound', //template with name notFound
+loadingTemplate: 'loading' //template with name loading
+});
+
+Router.onBeforeAction('loading'); //before every action call show
+
+
 Router.route('/', function () {
   this.render('');
 });
@@ -25,3 +33,13 @@ Router.route('/srp', function () {
 Router.route('/addschool', function () {
   this.render('addschool');
 });
+
+Router.onBeforeAction(function() {
+  if (! Meteor.userId()) {
+    this.render('login');
+  } else {
+    this.next();
+  }
+});
+
+Router.route('/schools/:_id', {name: 'schools.show'});

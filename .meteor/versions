@@ -53,6 +53,7 @@ logging@1.1.17
 materialize:materialize@0.98.2
 meteor@1.6.1
 meteor-base@1.1.0
+meteortoys:toykit@4.0.2
 minifier-css@1.2.16
 minifier-js@2.1.0
 minimongo@1.2.1
@@ -62,6 +63,7 @@ modules@0.9.1
 modules-runtime@0.8.0
 mongo@1.1.18
 mongo-id@1.0.6
+msavin:mongol@7.0.1
 npm-mongo@2.2.24
 observe-sequence@1.0.16
 ordered-dict@1.0.9
@@ -79,6 +81,7 @@ reactive-var@1.0.11
 reload@1.1.11
 retry@1.0.9
 routepolicy@1.0.12
+session@1.1.7
 shell-server@0.2.3
 spacebars@1.0.15
 spacebars-compiler@1.1.2
